@@ -1,0 +1,10 @@
+yourName = input('What is your name? ')
+yourAge = input('How old are you? ')
+makeHappy = input('What makes you happy? ')
+makeSad = input('What makes you sad? ')
+
+print()
+print('Welcome', yourName,)
+print('You are', yourAge, 'years old')
+print("\033[0;32m",makeHappy,"\033[0;0m", 'makes you happy')
+print('However',"\033[0;31m",makeSad,"\033[0;0m",'makes you sad')
