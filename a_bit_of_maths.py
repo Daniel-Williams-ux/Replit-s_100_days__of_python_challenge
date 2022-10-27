@@ -63,3 +63,18 @@ What was the bill?: 34.876770
 How many people?: 3
 You all owe 11.63
 '''
+
+myBill = float(input("What is the total bill?: "))
+tipBill = float(input("What is % of tip wil be added to the total bill?: "))
+numberOfPeople = int(input("How many people?: "))
+answer = myBill / numberOfPeople
+answer = round(answer, 2)
+print("You all owe", answer)
+
+'''
+console
+What is the total bill?: 23.098888
+What is % of tip wil be added to the total bill?: 5
+How many people?: 3
+You all owe 7.7
+'''
