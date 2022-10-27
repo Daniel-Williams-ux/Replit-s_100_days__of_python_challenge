@@ -47,3 +47,19 @@ How many people?: 3
 You all owe 11.625592933333332
 '''
 
+'''
+You can take your answer and use round. Round has two components: "What am I rounding?" and "How many decimal places am I rounding to?"
+Add this portion of code after answer and before print. This shows you are rounding answer to 2 decimal points.
+'''
+myBill = float(input("What was the bill?: "))
+numberOfPeople = int(input("How many people?: "))
+answer = myBill / numberOfPeople
+answer = round(answer, 2)
+print("You all owe", answer)
+
+'''
+console
+What was the bill?: 34.876770
+How many people?: 3
+You all owe 11.63
+'''
