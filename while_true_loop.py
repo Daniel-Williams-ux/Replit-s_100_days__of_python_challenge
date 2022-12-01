@@ -78,4 +78,24 @@ Notice the error message is saying the syntax error "break outside loop".
 Do you notice how the last three lines before the bottom print statement are not a part of the loop as they are not properly indented (look at the vertical lines)?
 
 Highlight these three lines of code and press tab key one time to indent this code so it is inside the loop.
+
+Fix My Code
 '''
+while true:
+  color = input("Enter a color: ")
+  if color = "red":
+  break
+  else:
+    print("Cool color!")
+print("I don't like red")
+
+'''
+Answer
+'''
+while True:
+  color = input("Enter a color: ")
+  if color == "red":
+    break
+  else:
+    print("Cool color!")
+print("I don't like red")
