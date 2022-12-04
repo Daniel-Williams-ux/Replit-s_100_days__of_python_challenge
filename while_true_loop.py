@@ -99,3 +99,45 @@ while True:
   else:
     print("Cool color!")
 print("I don't like red")
+
+'''
+👉 Day 16 Challenge
+Create a "Name the Lyrics" game. Write your favorite song lyrics with a word or two missing. 
+The user has to figure out the correct song lyric in as few attempts as possible. Find the true lyric master among you!
+
+Example
+Fill in the blank lyrics!
+(Type in the blank lyrics and see if you are as cool as me.)
+
+Never going to ______ you up.
+put
+Nope, try again.
+
+Never going to ______ you up.
+let
+Nope, try again.
+
+Never going to ______ you up.
+give
+
+Well done! It only took you 3 attempts.
+'''
+
+print("Welcome to Name the Song Lyric")
+print()
+print("Figure out the missing word as quickly as you can!")
+print()
+
+counter = 1
+while True:
+  lyrics = input("I don't wanna ______ a thing. ")
+  if lyrics == "miss" or lyrics == "Miss":
+    print("You got it!")
+  else:
+    print("Nope! Try again!")
+    counter +=1
+  if lyrics == "miss" or lyrics == "Miss":
+    break
+print("Thanks for playing!")
+
+print("You got the correct lyrics in", counter, "attempt(s).")
