@@ -47,3 +47,8 @@ Figure out how much you owe altogether for 10 years?
 Use a for loop and one or two lines of looped code to determine the answer. 
 (Hint: Don't make this overcomplicated. It should only be a few lines of code altogether.)
 '''
+loan = 1000
+apr = 0.05
+for i in range(10):
+  loan+=(loan*apr)
+  print("Year", i+1, "is", round(loan,2))
