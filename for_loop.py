@@ -31,3 +31,19 @@ Note: The variable is only there during the loop, not after it is completed.
 Fun fact
 Commonly computer programmers use the variable names i, j, and k when using for loops for counter. 
 There is no real reason. It's just how everyone has always done it. However, feel free to use a variable that has a bit more meaning if you like.
+'''
+
+'''
+👉 Day 19 Challenge
+A common thing people do is borrow money. When people repay money, 
+they pay interest which is paid back annually and added to the original amount the person borrowed.
+
+You are going to create a loan calculator that shows how much money you owe for a loan of $1,000 with a 5% APR (APR is fancy for Annual Percentage Rate) 
+over 10 years.
+This means each year the amount of money you owe will increase 5%.
+
+Figure out how much you owe altogether for 10 years?
+
+Use a for loop and one or two lines of looped code to determine the answer. 
+(Hint: Don't make this overcomplicated. It should only be a few lines of code altogether.)
+'''
