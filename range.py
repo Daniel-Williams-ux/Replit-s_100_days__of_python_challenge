@@ -85,3 +85,32 @@ and counting backward 1 each time.
 '''
 for i in range(10, -1, -1):
   print(i)
+
+  
+'''
+  Day 20 Challenge
+List Generator
+Ask the user to list a starting number, ending number, and increment to use. Display an answer based on the users' answers (use the input command.)
+Example:
+Start at: 200
+End before: 300
+Increment between values: 20
+
+200
+220
+240
+260
+280
+''
+
+print("Welcome to my number list generator.")
+print()
+print("You are going to give me a number you want to start with, an ending number, and by how many you want me to add each time.")
+print()
+
+x = int(input("What number do you want to start with? "))
+y = int(input("What number do you want to end with? "))
+z = int(input("How many should I add each time? "))
+
+for i in range(x, y, z):
+  print(i)
