@@ -22,9 +22,23 @@ he first number in this range, 100, is the starting value. The second number in 
 for i in range(100, 110):
   print(i)
   
+'''
+JavaScript equivalent
+'''
+for (let i = 100; i < 110; i++) {
+console.log(i);
+}
+  
 
 for i in range(1, 7):
-  print("Day", i)  
+  print("Day", i) 
+  
+'''
+JS
+'''
+for (let i = 1; i < 8; i++) {
+  console.log("Day", i)
+}
 
 '''
 Did you notice that the counter stopped at 'Day 6'? Change the ending value to be one more than the last number you want shown---in this case, 
@@ -39,3 +53,11 @@ for i in range(1, 8):
 print("Thirteen Times Table")
 for i in range(1, 13):
   print(i, "x 13 =", i * 13)
+
+  '''
+  JS
+  '''
+console.log("Thirteen Times Table");
+for (let i = 1; i < 13; i++) {
+console.log(i + " x 13 = " + i * 13);
+}
