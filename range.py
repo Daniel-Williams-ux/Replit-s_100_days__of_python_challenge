@@ -101,7 +101,7 @@ Increment between values: 20
 240
 260
 280
-''
+'''
 
 print("Welcome to my number list generator.")
 print()
@@ -114,3 +114,24 @@ z = int(input("How many should I add each time? "))
 
 for i in range(x, y, z):
   print(i)
+  
+
+'''
+Here's the equivalent JavaScript code:
+'''
+
+console.log("Welcome to my number list generator.");
+console.log();
+console.log("You are going to give me a number you want to start with, an ending number, and by how many you want me to add each time.");
+console.log();
+
+const x = parseInt(prompt("What number do you want to start with? "));
+const y = parseInt(prompt("What number do you want to end with? "));
+const z = parseInt(prompt("How many should I add each time? "));
+
+for (let i = x; i < y; i += z) {
+console.log(i);
+}
+
+'''Note that in JavaScript, the parseInt function is used to parse a string into an integer, whereas in Python the int function is used for the same purpose. 
+The prompt function is used to get user input in JavaScript, whereas in Python the input function is used.'''
