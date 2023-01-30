@@ -60,4 +60,8 @@ for i in range(1, 13):
 console.log("Thirteen Times Table");
 for (let i = 1; i < 13; i++) {
 console.log(i + " x 13 = " + i * 13);
+'''
+template literals
+console.log(${i} x 13 = ${i * 13});
+'''
 }
